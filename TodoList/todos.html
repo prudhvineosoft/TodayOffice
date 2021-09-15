@@ -1,0 +1,35 @@
+<!DOCTYPE html> <!--html5   :   tags  :   validation  -->
+<html>
+    <head>
+        <title>Today Office</title>
+        <link rel="icon" href="Home/Media/tab_icon.png">
+        <meta charset="UTF-8">
+        <meta name="keywords" content="Importent words of webpage">
+        <meta name="description" content="Short note regording webpage">
+        <meta name="Author" content="Author name" >
+        <script src="https://kit.fontawesome.com/5f59ca6ad3.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="todos.css">
+    </head>
+    <body>
+        <div class="content-todolist">
+            <div class="todos-bg-container">
+                <div class="todos-content">
+                    <h1 class="todos-heading">Todos</h1>
+                    <h1 class="create-task-heading">
+                        Create <span class="create-task-heading-subpart">Task</span>
+                    </h1>
+                    <input type="text" id="todoUserInput" class="todo-user-input" placeholder="What needs to be done?" />
+                    <button class="button" id="addTodoButton">Add</button>
+                    <button class="button" id="saveTodoButton">Save</button>
+                    
+                    <h1 class="todo-items-heading">
+                        My <span class="todo-items-heading-subpart">Tasks</span>
+                    </h1>
+                    
+                    <ul class="todo-items-container" id="todoItemsContainer"></ul>
+                </div>
+            </div>
+        </div>
+        <script src="todos.js"></script>
+    </body>
+</html>

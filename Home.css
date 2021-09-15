@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+.bg-container {
+    /* background-image: linear-gradient(#1b0320,#a77db0); */
+    background: rgb(16,0,36);
+    background: linear-gradient(135deg, rgba(16,0,36,1)26% , rgba(52, 6, 73, 0.959), rgba(89, 22, 156, 0.97));
+    height: 100vh;
+    display: flex;
+    background-attachment: fixed;
+}
+.nav-bar {
+    width: 20%;
+    background-color:rgba(0,0,0,0.1) ; 
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    height: 100vh;
+    
+}
+.profile{
+    text-align: center;
+}
+.profile-img {
+    width: 120px;
+    border-radius: 200px;
+    margin-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.938) 0px 22px 70px 4px;
+}
+.profile-name {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(134, 41, 226, 0.97);
+    margin-bottom: 60px;
+}
+.link {
+    font-size: 20px;
+    font-weight: 400;
+    color:  rgba(165, 136, 194, 0.97);
+    
+}
+.link-card {
+    margin-left: 40px;
+    height: 40px;
+    width: 66%;
+    background: linear-gradient(135deg,rgba(52, 6, 73, 0.959),rgba(89, 22, 156, 0.97));
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+.link-card:hover {
+    box-shadow: rgba(0, 0, 0, 0.938) 0px 22px 70px 4px;
+    height: 45px;
+    width: 70%;
+    border: solid 2px white;
+}
+.content {
+    height: 100vh;
+    background-color: transparent;
+    overflow-y: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.main-logo {
+    width: 150px;
+    height: 150px;
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+.main-heading {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(79, 145, 199, 0.97);
+    font-size: 40px;
+    margin-bottom: 60px;
+    font-weight: bold;
+}
+.about{
+    align-self: flex-start;
+    margin-left: 140px;
+    width: 70%;
+}
+.about-heading {
+    color: rgba(144, 163, 155, 0.97);
+    font-size: 30px;
+}
+.about-paragraph {
+    color: rgba(166, 192, 181, 0.97);
+    font-size: 20px;
+}
+.frame {
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+

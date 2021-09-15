@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    font: 'Raleway', sans-serif;
+    color: rgba(0,0,0,0.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    margin: 0px;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: rgba(238, 229, 229, 0.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+h2 {
+    color:  rgba(238, 229, 229, 0.5);
+}
+
+h3 {
+    font: 900 1em 'Raleway', sans-serif;
+    color: rgba(238, 229, 229, 0.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+}
+label {
+    color:  rgba(238, 229, 229, 0.5);
+}
+#result {
+    color:  rgba(238, 229, 229, 0.5);
+}
+.color1 {
+    height: 30px;
+    width: 60px;
+}
+.color2 {
+    height: 30px;
+    width: 60px;
+}
+#direction {
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+}

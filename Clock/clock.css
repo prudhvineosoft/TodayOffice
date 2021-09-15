@@ -1,0 +1,83 @@
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.container-fluid {
+    height: 100vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.image {
+    width: 500px;
+    height:500px;
+    background-image: url("pngkit_digital-clock-png_884156-modified.png");
+    background-color: rgba(62, 62, 105, 0.1);
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border-radius: 50%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.adjustment {
+  margin-top: 48.2vh;
+  height: 51.8vh;
+  width: 0px;
+}
+  /* Common properties to hands of clock */
+.common {
+    position: relative;
+    transition: transform 0.5s linear;
+    transform: rotate(0deg);
+    transform-origin: bottom center;
+    border-radius: 2px;
+    box-shadow: 0 0 0.5px 0.5px transparent;
+    overflow: hidden;
+    margin-left: 15px;
+}
+  
+  /* Pivot - Axis */
+.axis {
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    border-radius: 50%;
+    border: 4px solid #f6931e;
+    position: relative;
+    
+}
+  
+  /* Upper Pivot */
+ 
+  
+  /* Hour hand */
+.first {
+    width: 16px;
+    height: 80px;
+    bottom: 68px;
+    transform: rotate(0deg);
+    background-color: #f6931e;
+    margin-left: 10px;
+}
+  
+  /* Minute hand */
+.second {
+    width: 8px;
+    height: 120px;
+    bottom: 188px;
+    background-color: #f6931e;
+  
+}
+  
+  /* Second hand */
+  .third {
+    width: 4px;
+    height: 160px;
+    bottom: 348px;
+    background-color: blueviolet;
+  }
